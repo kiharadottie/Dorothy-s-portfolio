@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0
+}
+.body{
+    background-color: black;
+}
+.header{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    background-color: black;
+    color: aliceblue;
+    padding: 4opx;
+    margin: 20px;
+    font-family: fantasy;
+    font-size: larger;
+}
+.header-links{
+    color: aliceblue;
+    gap: 20px;
+    display: inline;
+}
+.header-links a{
+    color: aliceblue;
+    gap: 40px;
+    display: inline;
+    text-align: right;
+    text-decoration: none;
+}
+.hero{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.hero-text{
+    color: rgb(0, 6, 12);
+    background-color: aliceblue;
+    align-items: center;
+    padding: 20px;
+}
+.services{
+    font-family: fantasy;
+    color: black;
+    align-items: center;
+    padding: 20px;
+}
+.card{
+ display: inline-flex;
+ flex-wrap: wrap;
+ background-color: darkorchid;
+ color: aliceblue;
+ font-family: monospace;
+ margin: 30px;
+ transition: 1s;
+}
