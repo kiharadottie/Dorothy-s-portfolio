@@ -1,27 +1,33 @@
 *{
     margin: 0;
-    padding: 0
+    padding: 0;
+    box-sizing: border-box;
 }
 .body{
+    margin: 0;
     background-color: black;
+}
+html {
+    background-color: white;
 }
 .header{
     display: grid;
-    grid-template-columns: 40% 60%;
-    background-color: black;
-    color: aliceblue;
-    padding: 4opx;
+    grid-template-columns: 50% 50%;
+    background-color: gainsboro;
+    color: black;
+    padding: 30px;
     margin: 20px;
-    font-family: fantasy;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: larger;
 }
 .header-links{
-    color: aliceblue;
+    color: black;
     gap: 20px;
-    display: inline;
+    display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .header-links a{
-    color: aliceblue;
+    color: black;
     gap: 40px;
     display: inline;
     text-align: right;
@@ -29,26 +35,92 @@
 }
 .hero{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 40% 60%;
+    background-color: white;
+    padding: 40px;
 }
 .hero-text{
-    color: rgb(0, 6, 12);
-    background-color: aliceblue;
-    align-items: center;
+    color: black;
+    text-align: center;
     padding: 20px;
+    font-size: x-large;
+}
+.hero-image{
+    display: flex;
+    justify-content: center;
+}
+.hero-image img {
+    width: 70%;
+    max-width: 450px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 20px;
 }
 .services{
+    padding: 40px;
+    text-align: center;
+}
+.services-container{
     font-family: fantasy;
+    display: flex;
+    flex-wrap: wrap;
     color: black;
-    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: white;
+}
+.services-container :hover{
+    background-color: white;
+    transition: 1s;
+}
+.services h2{
+    align-content: center;
     padding: 20px;
 }
 .card{
- display: inline-flex;
- flex-wrap: wrap;
- background-color: darkorchid;
- color: aliceblue;
- font-family: monospace;
- margin: 30px;
- transition: 1s;
+ background-color: turquoise;
+ color: black;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ flex: 1 1 1 1 1 1;
+ width: 550px;
+ margin: 20px;
+ padding: 20px;
+ transition: transform 0.3s ease;
+}
+.card h2{
+    color: black;
+}
+.card p{
+    padding: 10px;
+}
+.projects{
+    align-items: center;
+    padding: 20px;
+}
+.projects h2{
+    text-align: center;
+}
+.projects-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+.projects-card{
+    background-color: lightcoral;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    flex: 1 1 1 1 1;
+    width: 650px;
+    margin: 30px;
+    padding: 20px;
+}
+.contacts{
+    padding: 40px;
+    align-items: center;
+}
+.footer{
+    background-color: black;
+    color: aliceblue;
+    padding: 30px;
+    text-align: center;
 }
