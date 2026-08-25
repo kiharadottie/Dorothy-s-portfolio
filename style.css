@@ -8,26 +8,26 @@
     background-color: black;
 }
 html {
-    background-color: white;
+    background-color: black;
 }
 .header{
     display: grid;
     grid-template-columns: 50% 50%;
-    background-color: gainsboro;
-    color: black;
+    background-color: black;
+    color: white;
     padding: 30px;
     margin: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: larger;
 }
 .header-links{
-    color: black;
+    color: white;
     gap: 20px;
     display: flex;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .header-links a{
-    color: black;
+    color: white;
     gap: 40px;
     display: inline;
     text-align: right;
@@ -36,11 +36,11 @@ html {
 .hero{
     display: grid;
     grid-template-columns: 40% 60%;
-    background-color: white;
+    background-color: black;
     padding: 40px;
 }
 .hero-text{
-    color: black;
+    color: white;
     text-align: center;
     padding: 20px;
     font-size: x-large;
@@ -76,6 +76,7 @@ html {
 .services h2{
     align-content: center;
     padding: 20px;
+    color: white;
 }
 .card{
  background-color: turquoise;
@@ -88,7 +89,7 @@ html {
  transition: transform 0.3s ease;
 }
 .card h2{
-    color: black;
+    color: white;
 }
 .card p{
     padding: 10px;
@@ -99,6 +100,7 @@ html {
 }
 .projects h2{
     text-align: center;
+    color: white;
 }
 .projects-container{
     display: flex;
@@ -117,9 +119,10 @@ html {
 .contacts{
     padding: 40px;
     align-items: center;
+    color: white;
 }
 .footer{
-    background-color: black;
+    background-color: turquoise;
     color: aliceblue;
     padding: 30px;
     text-align: center;
