@@ -622,7 +622,7 @@ section {
 
 .projects .section-heading p {
 
-    color: black;
+    color: turquoise;
 }
 
 
@@ -807,9 +807,9 @@ section {
 
 .why-me {
 
-    background-color: var(--black);
+    background-color: black;
 
-    color: var(--white);
+    color: white;
 }
 
 
@@ -1015,7 +1015,7 @@ section {
 
 .footer-content h2 {
 
-    color: var(--turquoise);
+    color: turquoise;
 }
 
 
@@ -1037,7 +1037,7 @@ section {
 
 .footer-links a {
 
-    color: var(--turquoise);
+    color: turquoise;
 
     transition: 0.3s ease;
 }
@@ -1045,7 +1045,7 @@ section {
 
 .footer-links a:hover {
 
-    color: var(--white);
+    color: white;
 }
 
 
